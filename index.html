@@ -2,12 +2,39 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Meditation Timer</title>
+	<title>Timer</title>
+	<link rel="stylesheet" href="timer.css">
 </head>
 <body>
-	<main>
-		<h1>Meditation Timer</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sapiente eligendi consectetur, itaque aspernatur, recusandae earum magnam blanditiis aliquid quas, est aut tenetur alias. Consequatur officiis cupiditate aliquid voluptatem expedita.</p>
-	</main>
+	<header>
+		<div class="wrapper">
+			<h1 id="title">MEDITATION TIMER</h1>
+		</div>
+	</header>
+
+	<div class="wrapper">
+		<div class="main">
+			<h2 id="intervals">1 / 1</h2>
+			<div id="intervalUpButton"></div>
+			<div id="intervalDownButton"></div>
+
+			<h1 id="time">00:00</h1>
+			<div id="timeUpButton"></div>
+			<div id="timeDownButton"></div>
+			
+		</div>
+		<div class="leadIn">
+			<p id="leadIn">LEAD IN TIME: 60 SECONDS<br>
+			MEDITATION TIME: 0 MINUTES</p>
+		</div>
+		<div class="startButtonHolder">
+			<input type="button" id="start" value="Start">
+			<input type="button" id="pause" value="Pause">
+			<input type="button" id="stop" value="Stop">
+		</div>
+		<audio id="gong" src="gong.wav"></audio>
+		<script src="timer.js"></script>
+	</div>
 </body>
 </html>
+
