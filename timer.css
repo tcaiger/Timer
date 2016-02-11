@@ -1,0 +1,158 @@
+
+*{box-sizing: border-box;}
+body{
+	font-family: 'helvetica neue', helvetica, sans-serif;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	background-color: #F5AB35;
+	color: #fEfEfE;
+}
+p{
+	line-height: 1.5em;
+}
+header{
+	background-color: black;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+.wrapper{
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+#title{
+	font-size: 2em;
+	margin: 0 0 1em;
+	padding: 1em;
+	letter-spacing: 3px;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 2em 0;
+}
+#time{
+	font-size: 10em;
+	margin: 20px 0 20px 0;
+}
+#timeUpButton{
+	position: absolute;
+	top: 10px;
+	left: 203px;
+	border-bottom: 40px solid #fefefe;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+}
+#timeUpButton:hover{
+	border-bottom: 40px solid #F5D76E;
+	cursor: pointer;
+}
+#timeDownButton{
+	position: absolute;
+	top: 195px;
+	left:203px;
+	border-top: 40px solid #fefefe;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+}
+#timeDownButton:hover{
+	border-top: 40px solid #F5D76E;
+	cursor: pointer;
+}
+#intervals{
+	position: absolute;
+	left:-100px;
+	top: 35px;	
+	font-size: 4em;
+
+}
+#intervalUpButton{
+	position: absolute;
+	top: 66px;
+	left:-5px;
+	border-bottom: 30px solid #fefefe;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+}
+#intervalUpButton:hover{
+	border-bottom: 30px solid #F5D76E;
+	cursor: pointer;
+}
+#intervalDownButton{
+	position: absolute;
+	top: 162px;
+	left:-5px;
+	border-top: 30px solid #fefefe;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+}
+#intervalDownButton:hover{
+	border-top: 30px solid #F5D76E;
+	cursor: pointer;
+}
+.leadIn{
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+}
+
+p{
+	font-size: 2em;
+
+}
+
+.startButtonHolder{
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+}
+
+#start{
+	font-size: 4em;
+	font-size: 26px;
+	padding: 1em 2em;
+	border: 2px solid #fefefe;
+	border-radius: 4px;
+	margin: 1em;
+	background-color: transparent;
+	color: #fefefe;
+	outline: none;
+}
+#start:hover{
+	background-color: #fefefe;
+	color: black;
+	cursor: pointer;
+}
+#start:focus{
+
+}
+#pause, #stop{
+	display: none;
+	font-size: 4em;
+	font-size: 26px;
+	padding: 1em 2em;
+	border: 2px solid #fefefe;
+	border-radius: 4px;
+	margin: 1em;
+	background-color: transparent;
+	color: #fefefe;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
